@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6D7BAFB2-5BAC-4D4B-B90A-F78B01B1326F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Honibus</RootNamespace>
+    <AssemblyName>Honibus</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ConsultarMoto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultarMoto.Designer.cs">
+      <DependentUpon>ConsultarMoto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultarOco.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultarOco.Designer.cs">
+      <DependentUpon>ConsultarOco.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultarFluxo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultarFluxo.Designer.cs">
+      <DependentUpon>ConsultarFluxo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas.Designer.cs">
+      <DependentUpon>Consultas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dbHONIBUSDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbHONIBUSDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Fluxo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fluxo.Designer.cs">
+      <DependentUpon>Fluxo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Grade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Grade.Designer.cs">
+      <DependentUpon>Grade.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Grade2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Grade2.Designer.cs">
+      <DependentUpon>Grade2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ocorrencias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ocorrencias.Designer.cs">
+      <DependentUpon>Ocorrencias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CadastroOni.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CadastroOni.Designer.cs">
+      <DependentUpon>CadastroOni.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CadastroMoto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CadastroMoto.Designer.cs">
+      <DependentUpon>CadastroMoto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultarOni.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultarOni.Designer.cs">
+      <DependentUpon>ConsultarOni.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pesquisa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pesquisa.Designer.cs">
+      <DependentUpon>Pesquisa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Splash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Splash.Designer.cs">
+      <DependentUpon>Splash.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ConsultarMoto.resx">
+      <DependentUpon>ConsultarMoto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsultarOco.resx">
+      <DependentUpon>ConsultarOco.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsultarFluxo.resx">
+      <DependentUpon>ConsultarFluxo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas.resx">
+      <DependentUpon>Consultas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fluxo.resx">
+      <DependentUpon>Fluxo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Grade.resx">
+      <DependentUpon>Grade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Grade2.resx">
+      <DependentUpon>Grade2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ocorrencias.resx">
+      <DependentUpon>Ocorrencias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CadastroOni.resx">
+      <DependentUpon>CadastroOni.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CadastroMoto.resx">
+      <DependentUpon>CadastroMoto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsultarOni.resx">
+      <DependentUpon>ConsultarOni.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pesquisa.resx">
+      <DependentUpon>Pesquisa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Splash.resx">
+      <DependentUpon>Splash.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="dbHONIBUSDataSet.xsc">
+      <DependentUpon>dbHONIBUSDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="dbHONIBUSDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbHONIBUSDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbHONIBUSDataSet.xss">
+      <DependentUpon>dbHONIBUSDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tcc 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tcc 21.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
