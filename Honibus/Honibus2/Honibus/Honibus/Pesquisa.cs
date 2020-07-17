@@ -20,7 +20,7 @@ namespace Honibus
         public Pesquisa()
         {
             InitializeComponent();
-            sqlConn = new SqlConnection("Data Source=ETEC-PC;Initial Catalog=dbHONIBUS;Integrated Security=True");
+            sqlConn = new SqlConnection("Data Source=BmnGamer;Initial Catalog=dbHONIBUS;Integrated Security=True");
 
         }
 

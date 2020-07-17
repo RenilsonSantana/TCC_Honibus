@@ -21,7 +21,7 @@ namespace Honibus
         public Fluxo()
         {
             InitializeComponent();
-            sqlConn = new SqlConnection("Data Source=ETEC-PC;Initial Catalog=dbHONIBUS;Integrated Security=True");
+            sqlConn = new SqlConnection("Data Source=BmnGamer;Initial Catalog=dbHONIBUS;Integrated Security=True");
         }
 
         private void sairToolStripMenuItem_Click(object sender, EventArgs e)

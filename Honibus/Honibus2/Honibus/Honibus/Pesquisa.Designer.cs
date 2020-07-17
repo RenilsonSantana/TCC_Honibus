@@ -129,7 +129,7 @@
             // 
             // fKtbOCORENCregis1CF15040BindingSource
             // 
-            this.fKtbOCORENCregis1CF15040BindingSource.DataMember = "FK__tbOCORENC__regis__1CF15040";
+ //           this.fKtbOCORENCregis1CF15040BindingSource.DataMember = "FK__tbOCORENC__regis__1CF15040";
             this.fKtbOCORENCregis1CF15040BindingSource.DataSource = this.tbMOTORISTABindingSource1;
             // 
             // tbOCORENCIATableAdapter

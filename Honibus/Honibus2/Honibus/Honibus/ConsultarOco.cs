@@ -13,7 +13,7 @@ namespace Honibus
 {
     public partial class ConsultarOco : Form
     {
-        SqlConnection sqlConn = new SqlConnection(@"Data Source=ETEC-PC;Initial Catalog=dbHONIBUS;Integrated Security=True");
+        SqlConnection sqlConn = new SqlConnection(@"Data Source=BmnGamer;Initial Catalog=dbHONIBUS;Integrated Security=True");
         private string _Sql = string.Empty;
 
         public ConsultarOco()

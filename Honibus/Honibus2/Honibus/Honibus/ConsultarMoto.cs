@@ -14,7 +14,7 @@ namespace Honibus
 {
     public partial class ConsultarMoto : Form
     {
-        SqlConnection conx = new SqlConnection(@"Data Source=ETEC-PC;Initial Catalog=dbHONIBUS;Integrated Security=True");
+        SqlConnection conx = new SqlConnection(@"Data Source=BmnGamer;Initial Catalog=dbHONIBUS;Integrated Security=True");
         private string _Sql = string.Empty;
 
 

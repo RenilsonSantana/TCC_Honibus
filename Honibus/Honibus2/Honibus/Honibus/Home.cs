@@ -15,7 +15,7 @@ namespace Honibus
     {
 
         SqlConnection sqlConn = null;
-        private string strConn = @"Data Source=ETEC-PC;Initial Catalog=dbHONIBUS;Integrated Security=True";
+        private string strConn = @"Data Source=BmnGamer;Initial Catalog=dbHONIBUS;Integrated Security=True";
         private string _Sql = string.Empty;
 
         public Home()

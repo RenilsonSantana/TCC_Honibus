@@ -15,7 +15,7 @@ namespace Honibus
     public partial class Grade : Form
 
     {
-        static SqlConnection sqlConn = new SqlConnection("Data Source=ETEC-PC;Initial Catalog=dbHONIBUS;Integrated Security=True");
+        static SqlConnection sqlConn = new SqlConnection("Data Source=BmnGamer;Initial Catalog=dbHONIBUS;Integrated Security=True");
 
 
         public Grade()
